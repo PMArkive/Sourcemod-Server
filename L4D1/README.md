@@ -37,7 +37,7 @@
 		```
 
 * **Step 4:** Change the Launch Parameters and start server
-	* (Windows) Double click scrds.bat
+	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where ```scrds.exe``` located at
 		```
 		start srcds.exe -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
 		```
@@ -49,17 +49,17 @@
 # Linux Server Files/Windows Server Files
 > Game: Left 4 Deade 1
 * Main
-	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11-dev)**
-		* **v1.11-git6968** by AlliedModders LLC
+	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=stable)**
+		* **1.12.0.7210** by AlliedModders LLC
 
-	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.11-dev)**
-		* **v1.11-git1155** by AlliedModders LLC
+	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=stable)**
+		* **1.12.0-1219** by AlliedModders LLC
 
 	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
 		* **v1.2.2-git141** by BAILOPAN
 
 	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
-		* **v2.0.1** by ivailosp、Accelerator74
+		* **v2.1.0** by ivailosp、Accelerator74
 
 	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
 		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
